@@ -15,46 +15,14 @@
       <div class="w-full px-4">
         <div class="text-center mx-auto mb-[60px] max-w-[510px]">
           <h2 class="font-bold text-3xl sm:text-4xl md:text-[40px] text-dark dark:text-gray-300 mb-4">
-            My Recent Projects
+          Quels sont les avantages de ONIRIX ?
           </h2>
           <p class="text-base text-body-color">
-            You learn most by building projects. Go ahead and build something right now.
+          Son algorithme est basé sur des données temporelles réelle, et elle offre des résultats à 80% fiable. Elle permet de predire l'avenir, ce qui permet de prendre des decisions importantes pour les personnes concernées, tant sur le plan personnel que professionnel.
+En plus, l'ONIRIX peut identifier les personnes atteints de problème de santé mentale, ce qui aide aux diagnostics des éventuels patients pour pouvoir les soigner le tot possible. d'ailleurs, des instuts médicaux utilisent les données issues de l'IA, ce qui accelèrent leur travail.
           </p>
         </div>
       </div>
-    </div>
-    <div class="flex flex-wrap justify-center -mx-4">
-      <div class="w-full px-4">
-        <ul class="flex flex-wrap justify-center mb-12 space-x-1">
-          <li class="mb-1">
-            <button
-              @click="selectedTab = 'all' "
-              :class="selectedTab == 'all' ? activeClasses : inactiveClasses "
-              class="inline-block py-2 md:py-3 px-5 lg:px-8 rounded-lg text-base font-semibold text-center transition "
-            >
-              All Projects
-            </button>
-          </li>
-          @foreach($tabs as $tab)
-          <li class="mb-1">
-            <button
-              @click="selectedTab = '{{$tab}}' "
-              :class="selectedTab === '{{$tab}}' ? activeClasses : inactiveClasses "
-              class="inline-block py-2 md:py-3 px-5 lg:px-8 rounded-lg text-base font-semibold text-center transition ">
-              {{$tab}}
-            </button>
-          </li>
-          @endforeach
-        </ul>
-      </div>
-    </div>
-    <div class="flex flex-wrap -mx-4">
-      @foreach ($items as $item)
-        <x-portfolio-item :title="$item['title']"
-                          :categories="$item['category']"
-                          :image="$item['image']"
-                          :github="$item['github']"></x-portfolio-item>
-      @endforeach
     </div>
   </div>
 </section>
