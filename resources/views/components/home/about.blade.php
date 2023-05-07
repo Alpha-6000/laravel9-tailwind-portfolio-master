@@ -7,23 +7,7 @@
           <div class="w-full xl:w-1/2 px-3 sm:px-4">
             <div class="py-3 sm:py-4">
               <img
-                src="{{ url('/img/me1.png') }}"
-                alt=""
-                class="rounded-2xl w-full"
-              />
-            </div>
-            <div class="py-3 sm:py-4">
-              <img
-                src="{{ url('/img/me3.png') }}"
-                alt=""
-                class="rounded-2xl w-full"
-              />
-            </div>
-          </div>
-          <div class="w-full xl:w-1/2 px-3 sm:px-4">
-            <div class="my-4 relative z-10">
-              <img
-                src="{{ url('/img/me2.png') }}"
+                src="{{ url('/img/moon.svg') }}"
                 alt=""
                 class="rounded-2xl w-full"
               />
@@ -36,24 +20,23 @@
         <div class="mt-10 lg:mt-0">
           <span class="font-semibold text-lg text-primary mb-2 block">
              <blockquote class="text-sm text-gray-500 italic py-2 px-3 border-l-4 border-amber-500">
-                 "Everything is achievable with hard work"
+                 "Et si vos reves sont les reflets de ce que l'avenir vous reserve?"
              </blockquote>
           </span>
           <h2 class="font-bold text-3xl sm:text-4xl dark:text-gray-200 mb-8">
-            About Me
+            About ONIRONOTE
           </h2>
           <p class="text-base dark:text-gray-400 mb-8">
-            I have been working as a professional software developer for 10+ years. <br />
-            During my career I have worked on various types of projects with various technologies,
-            but very often I feel that I am a junior developer who just started coding. <br />
+          Cette plateforme a été conçue pour faire connaitre l'IA ONIRIX, en quoi elle consiste, mais également qui l'a créée.<br />
+          ONIRIX c'est quoi ?. <br />
           </p>
           <p class="text-base dark:text-gray-400 mb-8">
-            In 2018 I decided to create a YouTube channel and share my knowledge. My channel is mostly focused on
-            <span class="text-amber-500 font-bold">PHP</span> and <span class="text-amber-500 font-bold">JavaScript</span>. <br />
-            My content is mostly focused on practical examples and projects. <br />
+          ONIRIX est une IA intelligence artificielle qui est capable de predire notre avenir à tous en se basant sur nos reves. Selon les informations que nous lui fournissons, elle analyse les données sur le principe de statistique et de probabilités, des données temporelles qui se répètent avec laquelle les programmeurs et developpeurs de l'institut international des reves vont créer des alogorithmes. Cette dernière es spécialisé dans les recherche en intélligence artificielle toujours dans l'objectif d'améliorer le bien-etre des personnes. Cette année, ONIRIX a detecté une grande proportion des personnes qui font des
+            <span class="text-amber-500 font-bold">cauchemars</span> <br />
+            , qui a atteint plus de 70% des utilisateurs. <br />
           </p>
-          <x-button-link href="https://youtube.com/thecodeholic" variant="red" target="_blank">
-            View my channel
+          <x-button-link href="./diriger-vos-reves" variant="red" target="_blank">
+            Evitez les cauchemars
           </x-button-link>
         </div>
       </div>
