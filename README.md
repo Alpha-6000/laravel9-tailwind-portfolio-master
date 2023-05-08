@@ -1,4 +1,4 @@
-<p align="center"><a href="" target="_blank"><img src="./tree/master/public/logo1.png" width="400" alt="Laravel Logo"></a></p>
+<p align="center"><a href="" target="_blank"><img src="https://github.com/Alpha-6000/onironote/tree/master/public/img/logo1.png" width="400" alt="Laravel Logo"></a></p>
 
 ## About OniroNote
 
